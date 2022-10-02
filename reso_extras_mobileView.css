@@ -44,8 +44,9 @@
     position: absolute;
     top: 1.5%;
     left: 1.5%;
-    height: 86%;
+    height: 97%;
     width: 97%;
+    border-radius: 10px;
     background-color: rgb(26, 26, 26);
     z-index: 1500;
     overflow: hidden;
@@ -105,7 +106,7 @@
 .about_paragraph strong
 {
     color: lime;
-    /* animation: animate 29s linear infinite; */
+    animation:none;
 }
 
 @keyframes animate {
@@ -129,7 +130,7 @@
     transform: rotate(20deg);
     pointer-events: none;
 }
-/* ------------------------------------------------------------------------------------------------------------------ */
+/* ----------------------------------------------CREDITS-------------------------------------------------------------------- */
 .ionicon
 {
     position: absolute;
@@ -155,7 +156,7 @@ label[for="ionicon"] a
     color: rgb(0, 255, 242);
 }
 
-/* ---------------------------------------------------------------------------------------------------------------- */
+
 .firebase
 {
     position: absolute;
@@ -181,7 +182,7 @@ label[for="firebase"] a
     color: rgb(0, 255, 255);
 }
 
-/* ------------------------------------------------------------------------------------------------------------------- */
+
 .google
 {
     position: absolute;
@@ -242,7 +243,7 @@ label[for="google"] a
     position: absolute;
     top: 1.5%;
     left: 1.5%;
-    height: 86%;
+    height: 97%;
     width:  97%;
     background-color: rgba(26, 26, 26, 0.849);
     backdrop-filter: blur(25px);
